@@ -90,7 +90,7 @@ header {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 .main-nav a {
   font-size: calc(var(--base-font-size) * 1.05);
@@ -305,6 +305,7 @@ footer {
   }
   .main-nav ul {
     justify-content: flex-start;
+    gap: 2rem;
   }
   .radio-switch {
     justify-content: flex-end;
